@@ -11,30 +11,28 @@
                 padding-bottom: 2%;
                 margin-left: 0%;
                 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                border-style: solid;
-                border-top: none;
-                border-left: none;
-                border-right: none;
             }
 
             .contact-info {
                 display: flex;
                 flex-direction: row;
-                width: 500px;
+                width: 600px;
                 margin-top: 1.5%;
+                padding-bottom: 1.5%;
                 padding-left: 2%;
+                border-style: solid;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                background: linear-gradient(to right, #bebaac, #010000,#4723d7, #eedd44);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
             }
 
             .name {
                 font-size:xx-large;
-                background-color: rgb(233, 236, 199);
                 display: inline;
                 padding-left: 2%;
-                width: 550px;
-                border-style: solid;
-                border-bottom-right-radius: 40px;
-                border-top-right-radius: 40px;
-                border-color: rgb(233, 236, 199);
             }
 
         </style>
@@ -42,12 +40,14 @@
     <body>
         <div class = "header">
             <div class="name">
-                <p>
+                <p style="background: linear-gradient(to right, #bebaac, #010000,#4723d7, #eedd44);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;">
                     <strong>Bojana Jošić</strong>
                 </p>
             </div>
             <div class="contact-info">
-                <div class="fa fa-envelope" style="flex: content">
+                <div class="fa fa-envelope" style="flex: content; ">
                     bojanajosic1998@gmail.com
                 </div>
                 <div class="fa fa-phone" style="flex: content;">
