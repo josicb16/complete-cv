@@ -48,7 +48,7 @@
                 display: flex;
             }
 
-            .active, .info_button:hover {
+            .info_button:hover {
                 background-image: linear-gradient(180deg, rgb(251, 255, 190), rgb(255, 255, 255));
             }
 
@@ -81,7 +81,7 @@
             </div>
         </div>
         <div class="skills-container">
-            <a type="button" class="info_button"> <strong>Work Experience +</strong></a>
+            <a type="button" class="info_button"> <strong>Work Experience</strong></a>
             <div class="work_content">
                 <ul>
                     <li>BGI Research</li>
@@ -93,29 +93,29 @@
             </div>
         </div>
         <div class="skills-container">
-            <p><strong>Education</strong></p>
+            <a type="button" class="info_button"> <strong>Education</strong></a>
             <ul>
                 <li>Faculty of Mathematics, University of Belgrade</li>
             </ul>
         </div>
         <div class="skills-container">
-            <p><strong>Skills</strong></p>
+            <a type="button" class="info_button"> <strong>Skills</strong></a>
         </div>
         <div class="skills-container">
-            <p><strong>Projects</strong></p>
+            <a type="button" class="info_button"> <strong>Projects</strong></a>
         </div>
         <div class="skills-container">
-            <p><strong>Research Papers</strong></p>
+            <a type="button" class="info_button"> <strong>Research Papers</strong></a>
         </div>
         <div class="skills-container">
-            <p><strong>Languages</strong></p>
+            <a type="button" class="info_button"> <strong>Languages</strong></a>
             <ul>
                 <li>Serbian (native)</li>
                 <li>English (advanced)</li>
               </ul>
         </div>
         <div class="skills-container">
-            <p><strong>Other</strong></p>
+            <a type="button" class="info_button"> <strong>Other</strong></a>
         </div>
 
 
@@ -127,7 +127,7 @@
                 coll[i].addEventListener("click", function() {
                     this.classList.toggle("active");
                     var content = this.nextElementSibling;
-                    if (content.style.display === "block") {
+                    if (content.style.display === "block" || content.style.display === "") {
                         content.style.display = "none";
                     } else {
                         content.style.display = "block";
