@@ -13,7 +13,7 @@
                 padding-bottom: 2%;
                 margin-left: 0%;
                 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                background-image: linear-gradient(180deg, rgb(251, 255, 190), rgb(255, 255, 255));
+                background-image: linear-gradient(180deg, rgb(255, 228, 190), rgb(255, 255, 255));
             }
 
             .contact-info {
@@ -36,9 +36,8 @@
                 padding-left: 2%;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 font-size: large;
-                cursor: pointer;
                 border-top: solid 1px;
-                width: 800px;
+                width: 1000px;
             }
 
             .info_button {
@@ -46,10 +45,11 @@
                 background: none;
                 padding: 0;
                 display: flex;
+                cursor: pointer;
             }
 
             .info_button:hover {
-                background-image: linear-gradient(180deg, rgb(251, 255, 190), rgb(255, 255, 255));
+                background-image: linear-gradient(180deg, rgb(255, 228, 190), rgb(255, 255, 255));
             }
 
             .work_content {
@@ -62,7 +62,7 @@
     <body>
         <div class = "header">
             <div class="name">
-                <p style="background: linear-gradient(to right, #000103, #cde89a,#4723d7, #eedd44);
+                <p style="background: linear-gradient(to right, #000103, #9ac0e8,#4723d7, #eedd44);
                 -webkit-text-fill-color: transparent;
                 -webkit-background-clip: text;">
                     <strong>JOŠIĆ Bojana</strong>
@@ -81,14 +81,23 @@
             </div>
         </div>
         <div class="skills-container">
-            <a type="button" class="info_button"> <strong>Work Experience</strong></a>
+            <a type="button" class="info_button"> <strong>Basic Information</strong></a>
+        </div>
+        <div class="skills-container">
+            <a type="button" class="info_button"> <strong>WORK EXPERIENCE</strong></a>
             <div class="work_content">
                 <ul>
-                    <li>BGI Research</li>
-                        <ul>
-                            <li>Junior Algorithm Developer </li>
+                    <li>Junior Algorithm Developer, BGI Research | March 2023 - </li>
+                        <ul style="list-style-type: none;">
+                            <span style="color: rgb(104, 104, 104);">Participated in the development of various bioinformatics algorithms using data science 
+                                and machine learning methodologies. Used Git for version control and AWS for cloud services. </span>
                         </ul>
-                    <li>Faculty of Mathematics, University of Belgrade</li>
+                    <li>Teaching Associate, Faculty of Mathematics, University of Belgrade | October 2021 - September 2023</li>
+                        <ul style="list-style-type: none;">
+                            <span style="color: rgb(104, 104, 104);">Held courses: Introduction to Computer Organization and Architecture, 
+                                Programming 2, Object-Oriented Programming. Improved knowledge of C and Java programming languages, assembly programming and object-oriented programming concepts. 
+                            </span> </li> 
+                        </ul>
                 </ul>
             </div>
         </div>
